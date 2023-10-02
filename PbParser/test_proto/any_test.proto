@@ -1,0 +1,50 @@
+
+syntax = "proto2";
+
+
+message TestArr
+{
+message Test2
+{
+	optional string xxx= 1;//
+}
+
+ repeated int32 int32_value = 1;
+ repeated int64 int64_value = 2;
+ repeated sint32 sint32_value = 3;
+repeated  sint64 sint64_value = 4;
+ repeated sfixed32 sfixed32_value = 5;
+ repeated sfixed64 sfixed64_value = 6;
+ repeated uint32 uint32_value = 7;
+repeated  uint64 uint64_value = 8;
+ repeated bytes bytes_value = 9;
+ repeated bool bool_value = 10;
+ repeated fixed32 fixed32_value = 11;
+ repeated fixed64 fixed64_value = 12;
+ repeated float float_value = 13;
+ repeated double double_value = 14;
+ repeated  string text_value = 15;
+ repeated  Test2 text2_value = 16;
+ optional  Test2 text3_value = 17;
+}
+
+message TestAny 
+{
+  optional int32 int32_value = 1;
+ optional int64 int64_value = 2;
+ optional sint32 sint32_value = 3;
+ optional sint64 sint64_value = 4;
+ optional sfixed32 sfixed32_value = 5;
+ optional sfixed64 sfixed64_value = 6;
+ optional uint32 uint32_value = 7;
+ optional uint64 uint64_value = 8;
+ optional bytes bytes_value = 9;
+ optional bool bool_value = 10;
+ optional fixed32 fixed32_value = 11;
+ optional fixed64 fixed64_value = 12;
+ optional float float_value = 13;
+ optional double double_value = 14;
+ optional string text_value = 15;
+ optional TestArr TestArr_value = 16;
+
+}

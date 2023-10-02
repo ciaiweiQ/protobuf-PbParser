@@ -1,0 +1,2 @@
+# protobuf-PbParser
+PbParser是一个VisualStudio2022项目,用于解析和打包protobuf的二进制数据,它允许在没有proto文件的情况下,准确的解析和打包数据

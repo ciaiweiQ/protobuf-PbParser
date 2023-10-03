@@ -10,20 +10,32 @@ PbParser是一个VisualStudio2022项目,用于解析和打包protobuf的二进�
 //下面是一个简单的打包例子
 
 //PbPackS pb;
+
 //pb.SetVarIntArr("12", { 12345678910,12345678 });
+
 //pb.SetStr("7A[0]", "123456");
+
 //pb.SetStr("7A[1]", "56789");
+
 //int _len = pb.Pack();
+
 //const char* data = pb.GetData();
 
 //与例子对应的解析代码--注意,在使用UnPack之前,需保证变量没有被释放
 //PbUnPack pb;
+
 //vector<uint64_t> _arr;
+
 //pb.GetVarIntArr("12",&_arr);
+
 //string _srt1;
+
 //string _srt2;
+
 //pb.GetStr("7A[0]",&_srt1);
+
 //pb.GetStr("7A[1]",&_srt2);
+
 //pb.UnPack(data, _len);
 
 //若拥有proto文件,建议使用官方项目https://github.com/protocolbuffers/protobuf,
@@ -51,20 +63,33 @@ PbParser是一个VisualStudio2022项目,用于解析和打包protobuf的二进�
 
 // Here's a simple bundling example
 //PbPackS pb;
+
 //pb.SetVarIntArr("12", { 12345678910,12345678 });
+
 //pb.SetStr("7A[0]", "123456");
+
 //pb.SetStr("7A[1]", "56789");
+
 //int _len = pb.Pack();
+
 //const char* data = pb.GetData();
 
 // Parsing code for example - Note that you need to make sure the variable is not freed before using UnPack
+
 //PbUnPack pb;
+
 //vector<uint64_t> _arr;
+
 //pb.GetVarIntArr("12",&_arr);
+
 //string _srt1;
+
 //string _srt2;
+
 //pb.GetStr("7A[0]",&_srt1);
+
 //pb.GetStr("7A[1]",&_srt2);
+
 //pb.UnPack(data, _len);
 
 // if have proto file, it is recommended to use the official project https://github.com/protocolbuffers/protobuf,
